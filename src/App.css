@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-width: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1.card-heading{
+  display: flex;
+  justify-content: center;
+  max-width: none;
+  font-size: 40px;
+  color: #313131;
+}
+
+.card-back{
+  padding-top: 50px;
+  padding-left: 40px;
+  display: inline-flex;
+}
+
+.card-container{
+    width: 500px;
+    height: min-content;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 12px;
+    box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;
+}
+
+
+.card-content{
+  margin: 1.5rem;
+  margin-top: 0.5rem;
+  color: #313131;
+  text-align: start;
+}
+.des{
+  display: block;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+.card-title{
+  margin-bottom: 0.5rem;
+  color: #313131;
+  font-size: 10px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  text-decoration: #fff;
+}
+.btn button{
+  padding: 0.6rem;
+  border-radius: 12px;
+  min-height: fit-content;
+  width: 500px;
+  background-color: #ffffff;
+  border: none;
+  transition: 0.2s;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .App {
+    width: 700px;
+  }
+}
+
+
