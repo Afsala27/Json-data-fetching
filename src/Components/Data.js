@@ -14,7 +14,7 @@ export default function Data() {
       const _ = require("lodash");
       let deby = todo.data.selftext;
       var str = deby;
-      //console.log(_.unescape(str));
+      console.log(_.unescape(str));
       return (
         <Card
           key={todo.data.id}
