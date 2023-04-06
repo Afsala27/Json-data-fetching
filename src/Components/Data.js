@@ -29,7 +29,7 @@ export default function Data() {
   }
   useEffect(() => {
     pullJson();
-  }, []);
+  },);
 
   return (
     <div>
